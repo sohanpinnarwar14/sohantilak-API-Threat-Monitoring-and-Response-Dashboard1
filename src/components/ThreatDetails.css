@@ -1,0 +1,26 @@
+.threat-details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .threat-details th, .threat-details td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .threat-details th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .threat-details tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .threat-details h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  

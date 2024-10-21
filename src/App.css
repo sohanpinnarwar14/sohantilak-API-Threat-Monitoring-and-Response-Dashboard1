@@ -1,0 +1,35 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  width: 30%; /* 30% width for the left panel */
+  background-color: lightgray; /* Light gray for the left side */
+  padding: 20px;
+}
+
+.right-panel {
+  width: 70%; /* 70% width for the right panel */
+  background-color: darkgray; /* Dark gray for the right side */
+  padding: 20px;
+  color: white;
+}
+
+
+
+
+.app-container {
+  position: relative;
+  z-index: 1;
+}
+
+.dashboard {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  margin: 20px;
+}
+

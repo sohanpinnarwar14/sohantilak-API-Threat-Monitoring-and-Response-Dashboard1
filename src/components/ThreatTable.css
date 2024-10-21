@@ -1,0 +1,25 @@
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #0044cc; /* Keep the border blue or any color you want */
+}
+
+th, td {
+  border: 1px solid #0044cc; /* Keep the border blue */
+  padding: 8px;
+  text-align: left;
+  color: #333333; /* Darker font color for visibility */
+  background-color: #ffffff; /* White background for readability */
+}
+
+th {
+  background-color: #e6f0ff; /* Slightly different color for headers */
+  color: #000000; /* Black font for the header text */
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1; /* Slight hover effect */
+}
+
+
